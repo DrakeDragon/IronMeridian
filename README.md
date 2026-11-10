@@ -4,6 +4,14 @@ GitHub Pages release · November 10, 2026
 
 The complete game is in `index.html`. No dependencies, external assets, accounts, build process, or backend are required.
 
+## Version 1.1.1 — Battle control fix
+
+This is the current release. It fixes a repeated interface-rebuilding bug that could interrupt taps during combat, especially on the text-size and ability buttons. Controls and their child elements now stay in place. Only changed labels, timers, meters, and enabled states are updated. Pause/resume and ability actions update feedback immediately; paused frames no longer repeatedly rebuild the interface.
+
+To update, replace your repository's `index.html` with this version and wait for GitHub Pages deployment. Refresh or close and reopen the game tab afterward. The footer should read **READING COMFORT v1.1.1**. Avoid clearing browser site data, since that can remove campaign saves. Existing saves and reading preferences remain compatible. Export a backup before updating.
+
+Regression checks passed for stable interactive elements across running and paused frames, immediate action state/feedback, and no repeated paused-panel rewrites. Existing gameplay and reading-comfort checks also passed. Physical-phone confirmation remains outstanding.
+
 ## Publish on GitHub Pages
 
 1. Extract this ZIP. GitHub does not unpack an uploaded ZIP automatically.

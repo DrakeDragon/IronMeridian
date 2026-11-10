@@ -2,6 +2,17 @@
 
 Release date: November 10, 2026
 
+## Fixed in version 1.1.1
+
+- Replaced animation-loop rebuilding of battle buttons and status-panel controls with permanent elements.
+- Ability labels and cooldowns update only when their content changes.
+- Pause/resume uses a persistent label and immediately updates pause state, accessibility state, and ability availability.
+- Text-size control stays mounted throughout combat.
+- Paused frames no longer repeatedly rebuild controls or warning panels.
+- Existing campaign progress and reading-size preferences are preserved.
+
+Added regression checks for interactive-element stability, immediate action feedback, and paused interface update behavior. All passed alongside the existing gameplay and reading-comfort checks. Real-phone tap behavior still needs user confirmation.
+
 ## New in version 1.1.0 — Reading Comfort
 
 - Large text is the default, including when upgrading an existing campaign.
