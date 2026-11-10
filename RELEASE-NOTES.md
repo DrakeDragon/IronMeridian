@@ -1,8 +1,22 @@
-# Expanded Edition — Release notes
+# Reading Comfort Edition — Release notes
 
 Release date: November 10, 2026
 
-## Features
+## New in version 1.1.0 — Reading Comfort
+
+- Large text is the default, including when upgrading an existing campaign.
+- Compact, Large, and Extra Large choices are available above the menus and in Settings.
+- In-battle Aa Text control changes size without abandoning or unpausing combat.
+- Larger supporting text, stronger contrast, and larger touch targets.
+- Responsive reflow for menus, route cards, status panels, dialogs, and battle controls.
+- Boss names, incoming strikes, and pause instructions are shown in readable text panels.
+- Canvas target labels, strike timers, and damage numbers compensate for camera scaling on small screens.
+- Text preferences persist through refresh and campaign export/import.
+- Existing saves, all 80 routes, and the expanded game's mechanics are preserved.
+
+Additional checks passed for default-size migration, all eight menus in all three sizes, size-preference persistence without progress changes, invalid-setting fallback, and text controls during active and paused combat. Browser layout and physical-phone testing remain outstanding; no accessibility-standard certification is claimed.
+
+## Retained expanded-edition features
 
 - 80 routes across ten territories and eight mission categories.
 - Ten named territory commanders with telegraphed strikes.

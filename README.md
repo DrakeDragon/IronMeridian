@@ -1,4 +1,4 @@
-# Iron Meridian — Expanded Edition
+# Iron Meridian — Reading Comfort Edition
 
 GitHub Pages release · November 10, 2026
 
@@ -24,6 +24,20 @@ Only `index.html` is required to play. `.nojekyll` bypasses Jekyll processing. D
 Export your campaign from the old game's Settings first. Replace the existing `index.html` with this release, keeping the same site address. Commit the replacement and wait for deployment. Refresh the browser; clear its page cache if the old version remains.
 
 Original-edition saves are supported. Saves use browser local storage under `iron-meridian-v1`; GitHub does not store or synchronize them. Use export/import to move progress between browsers or devices. Clearing browser data can erase progress. GitHub Pages projects on the same host share a storage origin and this game's save key.
+
+## Reading Comfort release — 1.1.0
+
+This release starts in **Large** text for both new campaigns and older saves without a text-size preference. Your campaign progress remains compatible.
+
+- **Compact:** the previous edition's text sizes and dense layout.
+- **Large:** 20px body/control text, with supporting text generally 18px.
+- **Extra Large:** 24px body/control text, with supporting text generally 22px.
+
+Choose a size using the **Text size** buttons above the menus or the selector in Settings. During battle, use **Aa Text** to cycle between sizes without leaving the route. The choice is saved in that browser and included in save exports.
+
+Large modes increase text contrast and button sizes, wrap navigation, place mobile route cards in two columns, and stack information to avoid cramming larger text into small boxes. Boss names, strike warnings, and pause instructions use readable panels rather than shrinking with the battlefield camera. Browser zoom remains available.
+
+If you update the game at its existing address, refresh after deployment. Export a campaign backup first. No progress reset or manual save conversion is needed.
 
 ## Controls and progression
 
